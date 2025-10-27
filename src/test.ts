@@ -148,10 +148,10 @@ function testGeneratedFiles() {
   const errors: string[] = [];
 
   const files = [
-    { path: "themes/pierre-light.json", expectedType: "light" },
-    { path: "themes/pierre-dark.json", expectedType: "dark" },
-    { path: "themes/pierre-light-vibrant.json", expectedType: "light" },
-    { path: "themes/pierre-dark-vibrant.json", expectedType: "dark" }
+    { path: "themes/bootstrap-light.json", expectedType: "light" },
+    { path: "themes/bootstrap-dark.json", expectedType: "dark" },
+    { path: "themes/bootstrap-light-vibrant.json", expectedType: "light" },
+    { path: "themes/bootstrap-dark-vibrant.json", expectedType: "dark" }
   ];
 
   for (const { path, expectedType } of files) {
@@ -244,7 +244,7 @@ function testPaletteRoles() {
 }
 
 // Run all tests
-console.log("🚀 Running Pierre Theme Tests\n");
+console.log("🚀 Running Bootstrap Theme Tests\n");
 console.log("=" .repeat(50));
 
 let allPassed = true;
@@ -253,8 +253,8 @@ let allPassed = true;
 allPassed = testPaletteRoles() && allPassed;
 
 // Test theme generation
-allPassed = testThemeGeneration("Pierre Light", "light", rolesLight) && allPassed;
-allPassed = testThemeGeneration("Pierre Dark", "dark", rolesDark) && allPassed;
+allPassed = testThemeGeneration("Bootstrap Light", "light", rolesLight) && allPassed;
+allPassed = testThemeGeneration("Bootstrap Dark", "dark", rolesDark) && allPassed;
 
 // Test generated files (only if they exist - they should after build)
 allPassed = testGeneratedFiles() && allPassed;

@@ -1,21 +1,21 @@
 {
-  "name": "pierre-vscode-theme",
-  "displayName": "Pierre Theme",
-  "description": "Pierre theme for Shiki, VS Code, and more",
-  "version": "0.0.14",
-  "publisher": "pierre-computer-co",
+  "name": "bootstrap-vscode-theme",
+  "displayName": "Bootstrap Theme",
+  "description": "Bootstrap theme for Shiki, VS Code, and more",
+  "version": "0.0.1",
+  "publisher": "bootstrap",
   "icon": "icon.png",
   "galleryBanner": {
-    "color": "#141415",
+    "color": "#7740ff",
     "theme": "dark"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pierredotco/pierre-vscode-theme"
+    "url": "https://github.com/twbs/bootstrap-vscode-theme"
   },
   "bugs": {
-    "url": "https://github.com/pierredotco/vscode-theme/issues"
+    "url": "https://github.com/twbs/bootstrap-vscode-theme/issues"
   },
   "engines": {
     "vscode": "^1.0.0"
@@ -25,31 +25,32 @@
   ],
   "keywords": [
     "theme",
-    "pierre",
+    "bootstrap",
     "light",
-    "dark"
+    "dark",
+    "vibrant"
   ],
   "contributes": {
     "themes": [
       {
-        "label": "Pierre Light",
+        "label": "Bootstrap Light",
         "uiTheme": "vs",
-        "path": "./themes/pierre-light.json"
+        "path": "./themes/bootstrap-light.json"
       },
       {
-        "label": "Pierre Dark",
+        "label": "Bootstrap Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/pierre-dark.json"
+        "path": "./themes/bootstrap-dark.json"
       },
       {
-        "label": "Pierre Light Vibrant",
+        "label": "Bootstrap Light Vibrant",
         "uiTheme": "vs",
-        "path": "./themes/pierre-light-vibrant.json"
+        "path": "./themes/bootstrap-light-vibrant.json"
       },
       {
-        "label": "Pierre Dark Vibrant",
+        "label": "Bootstrap Dark Vibrant",
         "uiTheme": "vs-dark",
-        "path": "./themes/pierre-dark-vibrant.json"
+        "path": "./themes/bootstrap-dark-vibrant.json"
       }
     ]
   },

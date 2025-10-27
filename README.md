@@ -1,21 +1,32 @@
-# Pierre VS Code Theme
+# Bootstrap VS Code Theme
 
-![Pierre Theme screenshot](https://github.com/user-attachments/assets/c9d0a316-9549-45c4-bca9-c0bab06dc837)
+A beautiful VS Code theme based on Bootstrap's color palette, featuring OKLCH color space for vibrant, accessible colors.
 
 ## Install
 
-1. Go to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=pierre-computer-co.pierre-vscode-theme).
-2. Click on the "Install" button.
+<!-- 1. Go to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=bootstrap.bootstrap-vscode-theme).
+2. Click on the "Install" button. -->
+1. Clone this repository or download the extension
+2. Install the extension in VS Code
 3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme). Four themes are included:
-    - `Pierre Light`
-    - `Pierre Dark`
-    - `Pierre Light Vibrant` (Display P3 color space)
-    - `Pierre Dark Vibrant` (Display P3 color space)
+    - `Bootstrap Light`
+    - `Bootstrap Dark`
+    - `Bootstrap Light Vibrant` (Display P3 color space)
+    - `Bootstrap Dark Vibrant` (Display P3 color space)
+
+## Color Palette
+
+Bootstrap's color palette is built using OKLCH color space, which provides:
+- **Perceptually uniform colors** - equal changes in lightness appear equal to the human eye
+- **Consistent chroma** - colors maintain their vibrancy across different lightness levels
+- **Better accessibility** - easier to create color scales with proper contrast ratios
+
+The palette includes 16 hues: blue, indigo, violet, purple, pink, red, orange, amber, yellow, lime, green, teal, cyan, brown, gray, and pewter. Each color has 13 variants (from 025 to 975) created using LAB color mixing to maintain perceptual consistency.
 
 ## Vibrant themes (Display P3)
 
 > [!NOTE]
-> Vibrant themes do not work in VS Code at this time as it does not support color formats other than Hex or RGB. You can, however, use these with [Precision Diffs](https://pierrejs-docs.vercel.app) or any [Shiki](https://shiki.style) project to render code.
+> Vibrant themes do not work in VS Code at this time as it does not support color formats other than Hex or RGB. You can, however, use these with [Shiki](https://shiki.style) projects or other tools that support Display P3 colors.
 
 The **Vibrant** theme variants use CSS's `color(display-p3 r g b)` format with enhanced saturation to fully utilize Display P3's wider color gamut. Display P3 can represent ~25% more colors than standard sRGB, and these themes are optimized to take full advantage of that on compatible displays.
 
@@ -27,11 +38,11 @@ To override this (or any other) theme in your personal config file, please follo
 
 ## Contribute
 
-1. Clone and open this [repo](https://github.com/pierredotco/pierre-vscode-theme) in VS Code
-2. Run `yarn` to install the dependencies.
+1. Clone and open this [repo](https://github.com/twbs/bootstrap-vscode-theme) in VS Code
+2. Run `npm install` to install the dependencies.
 3. Press `F5` to open a new window with your extension loaded
-4. Open `Code > Preferences > Color Theme` [`⌘k ⌘t`] and pick the "Pierre…" theme you want to test.
-5. Make changes to the [`/src/theme.ts`](https://github.com/pierredotco/pierre-vscode-theme/blob/main/src/theme.ts) file.
+4. Open `Code > Preferences > Color Theme` [`⌘k ⌘t`] and pick the "Bootstrap…" theme you want to test.
+5. Make changes to the [`/src/palette.ts`](https://github.com/twbs/bootstrap-vscode-theme/blob/main/src/palette.ts) or [`/src/theme.ts`](https://github.com/twbs/bootstrap-vscode-theme/blob/main/src/theme.ts) files.
 6. Run `npm run build` to update the theme. You can also run `npm run start` instead to automatically rebuild the theme while making changes and no reloading should be necessary.
 7. Run `npm test` to validate your changes (this runs automatically on PRs).
 8. Once you're happy, commit your changes and open a PR.
@@ -47,4 +58,4 @@ To override this (or any other) theme in your personal config file, please follo
 
 ## Credit
 
-This theme was built on top of [GitHub's VS Code Theme](https://github.com/primer/github-vscode-theme). All credit to them for the technique and build tooling, which we've since iterated on for more specific language tokens.
+This theme is a fork of [Pierre's VS Code Theme](https://github.com/pierredotco/pierre-vscode-theme), adapted to use Bootstrap's OKLCH-based color palette. The original Pierre theme was built on top of [GitHub's VS Code Theme](https://github.com/primer/github-vscode-theme), with enhancements for more specific language tokens and Display P3 color support.

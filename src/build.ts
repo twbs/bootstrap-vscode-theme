@@ -11,10 +11,10 @@ const rolesLightP3 = convertRolesToP3(rolesLight);
 const rolesDarkP3 = convertRolesToP3(rolesDark);
 
 const out = [
-  { file: "themes/pierre-light.json", theme: makeTheme("Pierre Light", "light", rolesLight) },
-  { file: "themes/pierre-dark.json",  theme: makeTheme("Pierre Dark",  "dark",  rolesDark)  },
-  { file: "themes/pierre-light-vibrant.json", theme: makeTheme("Pierre Light Vibrant", "light", rolesLightP3) },
-  { file: "themes/pierre-dark-vibrant.json",  theme: makeTheme("Pierre Dark Vibrant",  "dark",  rolesDarkP3)  }
+  { file: "themes/bootstrap-light.json", theme: makeTheme("Bootstrap Light", "light", rolesLight) },
+  { file: "themes/bootstrap-dark.json",  theme: makeTheme("Bootstrap Dark",  "dark",  rolesDark)  },
+  { file: "themes/bootstrap-light-vibrant.json", theme: makeTheme("Bootstrap Light Vibrant", "light", rolesLightP3) },
+  { file: "themes/bootstrap-dark-vibrant.json",  theme: makeTheme("Bootstrap Dark Vibrant",  "dark",  rolesDarkP3)  }
 ];
 
 for (const {file, theme} of out) {
