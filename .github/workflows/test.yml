@@ -34,32 +34,32 @@ jobs:
 
       - name: Verify theme files exist
         run: |
-          if [ ! -f "themes/pierre-light.json" ]; then
-            echo "❌ pierre-light.json not generated"
+          if [ ! -f "themes/bootstrap-light.json" ]; then
+            echo "❌ bootstrap-light.json not generated"
             exit 1
           fi
-          if [ ! -f "themes/pierre-dark.json" ]; then
-            echo "❌ pierre-dark.json not generated"
+          if [ ! -f "themes/bootstrap-dark.json" ]; then
+            echo "❌ bootstrap-dark.json not generated"
             exit 1
           fi
           echo "✅ All theme files generated successfully"
 
       - name: Check file sizes
         run: |
-          light_size=$(wc -c < themes/pierre-light.json)
-          dark_size=$(wc -c < themes/pierre-dark.json)
+          light_size=$(wc -c < themes/bootstrap-light.json)
+          dark_size=$(wc -c < themes/bootstrap-dark.json)
 
           echo "📊 Theme file sizes:"
-          echo "  - pierre-light.json: $light_size bytes"
-          echo "  - pierre-dark.json: $dark_size bytes"
+          echo "  - bootstrap-light.json: $light_size bytes"
+          echo "  - bootstrap-dark.json: $dark_size bytes"
 
           # Sanity check - themes should be at least 10KB
           if [ $light_size -lt 10000 ]; then
-            echo "❌ pierre-light.json seems too small ($light_size bytes)"
+            echo "❌ bootstrap-light.json seems too small ($light_size bytes)"
             exit 1
           fi
           if [ $dark_size -lt 10000 ]; then
-            echo "❌ pierre-dark.json seems too small ($dark_size bytes)"
+            echo "❌ bootstrap-dark.json seems too small ($dark_size bytes)"
             exit 1
           fi
 
