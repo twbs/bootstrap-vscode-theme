@@ -2,7 +2,7 @@
   "name": "bootstrap-vscode-theme",
   "displayName": "Bootstrap Theme",
   "description": "Bootstrap theme for Shiki, VS Code, and more",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "bootstrap",
   "icon": "icon.png",
   "galleryBanner": {
@@ -12,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/twbs/bootstrap-vscode-theme"
+    "url": "git+https://github.com/twbs/bootstrap-vscode-theme.git"
   },
   "bugs": {
     "url": "https://github.com/twbs/bootstrap-vscode-theme/issues"
@@ -67,6 +67,9 @@
     "README.md",
     "LICENSE.md"
   ],
+  "exports": {
+    ".": "./src/index.ts"
+  },
   "devDependencies": {
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
