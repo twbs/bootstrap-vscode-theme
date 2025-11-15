@@ -1,5 +1,5 @@
 // src/theme.ts
-import type { Roles } from "./palette";
+import type { Roles } from "./palette.js";
 
 type VSCodeTheme = {
   name: string;

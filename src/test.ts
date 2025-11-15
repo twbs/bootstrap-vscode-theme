@@ -1,7 +1,7 @@
 // src/test.ts
 import { readFileSync, existsSync } from "node:fs";
-import { light as rolesLight, dark as rolesDark } from "./palette";
-import { makeTheme } from "./theme";
+import { light as rolesLight, dark as rolesDark } from "./palette.js";
+import { makeTheme } from "./theme.js";
 
 // Color tracking for detecting undefined values
 const usedColors = new Set<string>();

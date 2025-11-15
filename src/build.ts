@@ -1,8 +1,8 @@
 // src/build.ts
 import { writeFileSync, mkdirSync } from "node:fs";
-import { light as rolesLight, dark as rolesDark } from "./palette";
-import { makeTheme } from "./theme";
-import { convertRolesToP3 } from "./color-p3";
+import { light as rolesLight, dark as rolesDark } from "./palette.js";
+import { makeTheme } from "./theme.js";
+import { convertRolesToP3 } from "./color-p3.js";
 
 mkdirSync("themes", { recursive: true });
 
