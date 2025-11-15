@@ -2,7 +2,7 @@
   "name": "bootstrap-vscode-theme",
   "displayName": "Bootstrap Theme",
   "description": "Bootstrap theme for Shiki, VS Code, and more",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "bootstrap",
   "icon": "icon.png",
   "galleryBanner": {
@@ -58,8 +58,15 @@
     "build": "ts-node src/build.ts",
     "test": "npm run build && ts-node src/test.ts",
     "start": "nodemon --watch src --ext ts --exec npm run build",
-    "package": "vsce package"
+    "package": "vsce package",
+    "prepublishOnly": "npm run build"
   },
+  "files": [
+    "themes/",
+    "icon.png",
+    "README.md",
+    "LICENSE.md"
+  ],
   "devDependencies": {
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
