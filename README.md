@@ -11,8 +11,8 @@ A beautiful VS Code theme based on Bootstrap's color palette, featuring OKLCH co
 3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme). Four themes are included:
     - `Bootstrap Light`
     - `Bootstrap Dark`
-    - `Bootstrap Light Vibrant` (Display P3 color space)
-    - `Bootstrap Dark Vibrant` (Display P3 color space)
+    - `Bootstrap Light Vibrant` (Display P3 color space, not for VS Code editors)
+    - `Bootstrap Dark Vibrant` (Display P3 color space, not for VS Code editors)
 
 ## Color Palette
 

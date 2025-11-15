@@ -2,7 +2,7 @@
   "name": "bootstrap-vscode-theme",
   "displayName": "Bootstrap Theme",
   "description": "Bootstrap theme for Shiki, VS Code, and more",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "bootstrap",
   "icon": "icon.png",
   "galleryBanner": {
