@@ -290,24 +290,24 @@ export const light: Roles = {
   },
   syntax: {
     comment: gray["600"],
-    string: green["600"],
-    number: cyan["600"],
-    keyword: pink["500"],
+    string: green["600"],          // Green for strings
+    number: blue["600"],            // Blue for numbers
+    keyword: purple["600"],         // Purple for keywords (import, export, const, etc.)
     regexp: teal["600"],
-    func: indigo["500"],
-    type: violet["500"],
-    variable: orange["600"],
+    func: blue["600"],              // Blue for functions
+    type: cyan["700"],              // Cyan/teal for types
+    variable: gray["800"],          // Darker gray for variables (more neutral)
     // Extended token types
-    operator: cyan["500"],
+    operator: purple["600"],        // Purple for operators
     punctuation: gray["700"],
-    constant: yellow["600"],
-    parameter: gray["700"],
-    namespace: yellow["600"],
-    decorator: blue["500"],
+    constant: blue["600"],          // Blue for constants
+    parameter: gray["800"],         // Darker gray for parameters
+    namespace: cyan["700"],         // Cyan for namespaces
+    decorator: purple["600"],       // Purple for decorators
     escape: cyan["600"],
     invalid: red["500"],
-    tag: red["600"],
-    attribute: teal["600"]
+    tag: pink["600"],               // Pink for HTML tags
+    attribute: cyan["700"]          // Cyan for attributes
   },
   ansi: {
     black: gray["980"],
@@ -367,24 +367,24 @@ export const dark: Roles = {
   },
   syntax: {
     comment: gray["600"],
-    string: green["400"],
-    number: cyan["400"],
-    keyword: pink["400"],
+    string: indigo["300"],         // Indigo for strings/attribute values (like "button", "btn")
+    number: cyan["400"],           // Cyan for numbers
+    keyword: purple["400"],        // Purple for keywords (like @include, var, rgba)
     regexp: teal["400"],
-    func: indigo["400"],
-    type: violet["400"],
-    variable: orange["400"],
+    func: cyan["400"],             // Cyan for functions
+    type: teal["400"],             // Teal for types
+    variable: cyan["300"],         // Light cyan for variables
     // Extended token types
-    operator: cyan["500"],
-    punctuation: gray["700"],
-    constant: yellow["400"],
-    parameter: gray["400"],
-    namespace: yellow["500"],
-    decorator: blue["400"],
+    operator: purple["400"],       // Purple for operators
+    punctuation: gray["400"],      // Lighter punctuation
+    constant: cyan["400"],         // Cyan for constants
+    parameter: cyan["300"],        // Light cyan for parameters
+    namespace: teal["400"],        // Teal for namespaces
+    decorator: purple["400"],      // Purple for decorators
     escape: cyan["400"],
     invalid: red["400"],
-    tag: red["400"],
-    attribute: teal["400"]
+    tag: cyan["400"],              // Cyan for HTML tags (like <button>)
+    attribute: teal["400"]         // Teal for attributes (like type, class, disabled)
   },
   ansi: {
     black: gray["1000"],

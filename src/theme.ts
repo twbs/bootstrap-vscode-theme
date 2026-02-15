@@ -146,6 +146,8 @@ export function makeTheme(name: string, kind: "light"|"dark", c: Roles): VSCodeT
       // ========================================
       { scope: ["comment","punctuation.definition.comment"], settings: { foreground: c.syntax.comment } },
       { scope: "comment markup.link", settings: { foreground: c.syntax.comment } },
+      { scope: "comment.line.double-slash", settings: { foreground: c.syntax.comment } },
+      { scope: ["comment.line.scss","comment.block.scss","comment.line.css","comment.block.css"], settings: { foreground: c.syntax.comment } },
 
       // ========================================
       // STRINGS
