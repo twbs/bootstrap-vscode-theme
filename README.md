@@ -23,8 +23,8 @@
 
 ## Install
 
-1. Go to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=bootstrap.bootstrap-vscode-theme).
-2. Click on the "Install" button.
+1. Go to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=bootstrap.bootstrap-vscode-theme), or clone this repository or download the extension.
+2. Click on the "Install" button on the Marketplace, or install the extension in VS Code.
 3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme). Four themes are included:
     - `Bootstrap Light`
     - `Bootstrap Dark`
