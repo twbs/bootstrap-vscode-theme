@@ -1,13 +1,30 @@
-# Bootstrap VS Code Theme
+<p align="center">
+  <a href="https://marketplace.visualstudio.com/items?itemName=bootstrap.bootstrap-vscode-theme">
+    <img src="https://raw.githubusercontent.com/twbs/bootstrap-vscode-theme/main/icon.png" alt="Bootstrap logo" width="120">
+  </a>
+</p>
 
-A beautiful VS Code theme based on Bootstrap's color palette, featuring OKLCH color space for vibrant, accessible colors.
+<h3 align="center">Bootstrap VS Code Theme</h3>
+
+<p align="center">
+  A VS Code and Shiki theme based on Bootstrap's color palette, built in the OKLCH color space for vibrant, accessible colors.
+  <br>
+  <a href="https://marketplace.visualstudio.com/items?itemName=bootstrap.bootstrap-vscode-theme"><strong>Install from the VS Marketplace »</strong></a>
+  <br>
+  <br>
+  <a href="https://github.com/twbs/bootstrap-vscode-theme/issues/new">Report bug</a>
+  ·
+  <a href="https://www.npmjs.com/package/bootstrap-vscode-theme">npm package</a>
+  ·
+  <a href="https://getbootstrap.com/">Bootstrap</a>
+</p>
+
+![Bootstrap Light and Bootstrap Dark themes showing the same TypeScript code sample side by side](https://raw.githubusercontent.com/twbs/bootstrap-vscode-theme/main/assets/screenshot.png)
 
 ## Install
 
-<!-- 1. Go to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=bootstrap.bootstrap-vscode-theme).
-2. Click on the "Install" button. -->
-1. Clone this repository or download the extension
-2. Install the extension in VS Code
+1. Go to the [Visual Studio Marketplace](https://marketplace.visualstudio.com/items?itemName=bootstrap.bootstrap-vscode-theme).
+2. Click on the "Install" button.
 3. Then [select a theme](https://code.visualstudio.com/docs/getstarted/themes#_selecting-the-color-theme). Four themes are included:
     - `Bootstrap Light`
     - `Bootstrap Dark`
