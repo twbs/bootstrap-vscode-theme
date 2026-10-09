@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://marketplace.visualstudio.com/items?itemName=bootstrap.bootstrap-vscode-theme">
-    <img src="https://raw.githubusercontent.com/twbs/bootstrap-vscode-theme/main/icon.png" alt="Bootstrap logo" width="120">
+    <img src="https://raw.githubusercontent.com/twbs/bootstrap-vscode-theme/main/assets/bootstrap-logo.png" alt="Bootstrap logo" width="200">
   </a>
 </p>
 
