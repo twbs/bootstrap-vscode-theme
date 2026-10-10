@@ -80,10 +80,10 @@
   ],
   "devDependencies": {
     "@types/node": "^26.6.4",
+    "@vscode/vsce": "^4.0.0",
     "nodemon": "^3.1.7",
     "tsx": "^4.19.2",
-    "typescript": "^7.0.2",
-    "vsce": "^2.15.0"
+    "typescript": "^7.0.2"
   },
   "publishConfig": {
     "access": "public"
